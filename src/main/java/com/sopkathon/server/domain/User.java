@@ -23,14 +23,11 @@ public class User extends AuditingTimeEntity{
     @Column(nullable = false)
     private String nickname;
 
-    @OneToMany(mappedBy = "user")
-    private List<Petition> petitions = new ArrayList<>();
 
     @Builder
-    private User(String name, String nickname, List<Petition> petitions) {
+    private User(String name, String nickname) {
         this.name = name;
         this.nickname = nickname;
-        this.petitions = petitions;
     }
 
 }
