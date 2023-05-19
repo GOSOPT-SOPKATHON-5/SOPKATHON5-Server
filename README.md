@@ -24,20 +24,24 @@
 
 ```
 .
-├── tsconfig.json
-├── nodemone.json
-├── package.json
-├── .gitignore
-├── .env
-├── yarn.lock
-├── prisma
-├── node_modules
-└── src
-    ├── controller
-    ├── service
-    ├── router
-    ├── constants
-    └── index.ts 
+└── src 
+    └─ main
+        └─ java
+            └─ com.sopkathon.server
+                ├── common
+                ├── config
+                ├── service
+                ├── controller
+                ├── domain
+                ├── dto
+                ├── repository
+                └── ServerApplication
+        └─ resources
+                └── application.yaml
+        └─ test
+                └── java
+                    └── com.sopkathon.server
+                        └── ServerApplicationTests
 ```
 <br/><br/>
 
