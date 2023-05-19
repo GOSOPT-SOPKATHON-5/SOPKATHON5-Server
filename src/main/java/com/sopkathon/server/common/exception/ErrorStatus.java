@@ -31,4 +31,9 @@ public enum ErrorStatus {
 
     private final HttpStatus httpStatus;
     private final String message;
+
+    public int getHttpStatusCode() {
+        return httpStatus.value();
+    }
+
 }
