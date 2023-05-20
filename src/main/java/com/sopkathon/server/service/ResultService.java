@@ -45,18 +45,18 @@ public class ResultService {
         Answer answer = answerRepository.findById(answerId).orElse(null);
         Question question = questionRepository.findById(answer.getQuestion().getId()).orElse(null);
         List<Answer> answers = answerRepository.findAllByQuestionId(question.getId());
-
         List<AnswerResponseDto> results = new ArrayList<>();
-
         for(Answer addAnswer: answers){
+            System.out.println(addAnswer.getAnswer()+"답변이다리");
             results.add(AnswerResponseDto.builder().id(addAnswer.getId()).answer(addAnswer.getAnswer()).build());
         }
-        Result result = resultRepository.findByReceiverIdAndAnswerId(userId, answerId).orElse(null);
-        User user = result.getSender();
-
-        System.out.println(user.getId());
+        System.out.println(userId);
+        System.out.println(answerId);
+        Result result = resultRepository.findByReceiverIdAndAnswerId(userId, answerId)
+                .orElseThrow(() -> new RuntimeException("ASDASDASD"));
+        System.out.println(result.getReceiver());
+        User user = userRepository.findById(result.getReceiver().getId()).orElse(null);
         String userName = user.getName();
-
         return AnswerDetailResponseDto.builder().senderId(user.getId()).senderName(userName).answerId(answer.getId()).answers(results).build();
     }
 }
