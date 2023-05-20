@@ -10,25 +10,21 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class User {
+public class Answer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
-    private String name;
+    private String answer;
 
-    @Column(nullable = false)
-    private String sex;
-
-    @Column(nullable = false)
-    private String point;
+    @ManyToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name = "question_id")
+    private Question question;
 
     @Builder
-    public User(Long id, String name, String sex, String point) {
+    public Answer(Long id, String answer, Question question) {
         this.id = id;
-        this.name = name;
-        this.sex = sex;
-        this.point = point;
+        this.answer = answer;
+        this.question = question;
     }
 }

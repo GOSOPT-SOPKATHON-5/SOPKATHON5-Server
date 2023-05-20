@@ -10,25 +10,17 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class User {
+public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false)
-    private String name;
-
-    @Column(nullable = false)
-    private String sex;
-
-    @Column(nullable = false)
-    private String point;
+    private String question;
 
     @Builder
-    public User(Long id, String name, String sex, String point) {
+    public Question(Long id, String question) {
         this.id = id;
-        this.name = name;
-        this.sex = sex;
-        this.point = point;
+        this.question = question;
     }
 }
