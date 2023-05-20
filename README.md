@@ -73,7 +73,7 @@ ex) commit -m "[FEAT] user API 구현"
 - [modify] : 코드 수정 (기능의 변화가 있을 때)
 - [chore] : gradle 세팅, 위의 것 이외에 거의 모든 것
 
-ex) feat-user-api
+ex) feat/#9-user-api
 
 ### 브랜치 전략
 
@@ -93,6 +93,32 @@ ex) feat-user-api
 ### ✔️ Code Convention
 ---
 
+ <details>  <summary>1. 변수</summary>  
+ <div markdown="1"> 
+ <br>
+     1-1. camelCase 형식을 사용합니다.<br><br>
+     1-2. 이름은 짧지만 의미 있어야 합니다.(사용 의도를 누구나 알아낼 수 있도록!)<br><br>
+     1-3. ENUM이나 상수는 대문자로 표기합니다.<br><br>
+ </div>  </details>
+
+ <details>  <summary>2. 함수</summary>  
+ <div markdown="1"> 
+ <br>
+ 2-1. 함수의 이름은 동사여야 하며, camelCase 형식을 사용합니다. <br><br>
+     2-2. 객체 이름을 함수 이름에 중복적으로 사용하지 않습니다.<br><br>
+     </div>  </details>
+
+ <details>  <summary>3. 클래스 </summary>  
+ <div markdown="1"> 
+ <br>
+ 클래스 이름은 명사이어야 하며 Pascal Case를 사용합니다.
+     </div>  </details>
+
+ <details>  <summary>4. 인터페이스 </summary>  
+ <div markdown="1"> 
+ <br>
+ 클래스와 같은 규칙을 사용합니다.
+     </div>  </details>
 
 <br/><br/>
 
