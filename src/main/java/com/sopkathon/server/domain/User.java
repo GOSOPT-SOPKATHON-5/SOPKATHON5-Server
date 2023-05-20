@@ -19,16 +19,25 @@ public class User {
     private String name;
 
     @Column(nullable = false)
-    private String sex;
+    private Long point;
 
-    @Column(nullable = false)
-    private String point;
+    public void addPoint(){
+        this.point ++;
+    }
+
+    public void subPoint(){
+        if(this.point==0){
+            this.point++;
+        }
+        else {
+            this.point--;
+        }
+    }
 
     @Builder
-    public User(Long id, String name, String sex, String point) {
+    public User(Long id, String name, Long point) {
         this.id = id;
         this.name = name;
-        this.sex = sex;
         this.point = point;
     }
 }

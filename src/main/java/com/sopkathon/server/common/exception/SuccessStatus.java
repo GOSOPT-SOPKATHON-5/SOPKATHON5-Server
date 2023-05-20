@@ -17,6 +17,9 @@ public enum SuccessStatus {
     answer
      */
     DELETE_RESULT(HttpStatus.OK, "결과 조회 완료후, 삭제 하였습니다."),
+
+    CHANGE_POINT_SUCCESS(HttpStatus.CREATED, "해당 사용자의 포인트가 변경되었습니다")
+
     ;
 
     private final HttpStatus httpStatus;
