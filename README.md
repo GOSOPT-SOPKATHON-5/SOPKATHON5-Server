@@ -138,10 +138,15 @@ API 명세서 : https://glass-pisces-91b.notion.site/API-e7a25267d2794a269dec5c5
 ## API 테스트
 
 ![image](https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/768331e5-abec-4168-b9b3-6e017fa38685)
+<img width="447" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/9530789a-8455-45ec-969a-9cb1e3ec731e">
+<img width="383" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/492897b6-566b-4575-b429-c56c07d46f5e">
+<img width="497" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/34fd8ce6-b27d-48fe-bfd0-344a8dfa2277">
+
 
 
 ## 5조의 힘
 <img width="546" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/a24192fa-4eb3-4693-8c28-fb6021466970">
+
 
 5조가 짱이다!!!!!!!!!!!!!!
 
