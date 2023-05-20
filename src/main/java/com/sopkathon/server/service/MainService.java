@@ -24,10 +24,9 @@ public class MainService {
 
     public GetMainDto getMain(Long userId) {
         User user = userRepository.findById(userId).orElseThrow();
-        System.out.println("11");
+
         List<Result> byReceiver = resultRepository.findAllByReceiver(user);
 
-        System.out.println("11");
         List<UserAnswers> userAnswers = byReceiver.stream()
                 .map(m -> new UserAnswers(
                         m.getId(),
