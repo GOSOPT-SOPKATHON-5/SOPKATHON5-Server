@@ -127,11 +127,18 @@ ex) feat/#9-user-api
 
 > API 명세서 링크: 
 
+API 명세서 : https://glass-pisces-91b.notion.site/API-e7a25267d2794a269dec5c5adaf18663
+
 <br/><br/>
 
 ## ERD
 ---
 <img width="474" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/400a0e75-57e5-46d1-b57a-a58e28554863">
+
+## API 테스트
+
+![image](https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/768331e5-abec-4168-b9b3-6e017fa38685)
+
 
 ## 5조의 힘
 <img width="546" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/a24192fa-4eb3-4693-8c28-fb6021466970">
