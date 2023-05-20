@@ -11,11 +11,11 @@
 <br/><br/>
 
 
-## 각자 개발 담당 부분
+## 각자 맡은 부분
 ---
 
-- 현정 : 
-- 성은 : 
+- 현정 : 프로젝트 세팅, ERD 작성, API 명세서 작성
+- 성은 : ERD 작성, API 명세서 작성
 
 <br/><br/>
 
@@ -132,3 +132,10 @@ ex) feat/#9-user-api
 
 ## ERD
 ---
+<img width="474" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/400a0e75-57e5-46d1-b57a-a58e28554863">
+
+## 5조의 힘
+<img width="546" alt="image" src="https://github.com/GOSOPT-SOPKATHON-5/SOPKATHON5-Server/assets/81394850/a24192fa-4eb3-4693-8c28-fb6021466970">
+
+5조가 짱이다!!!!!!!!!!!!!!
+
