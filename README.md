@@ -3,9 +3,9 @@
 ## service
 ---
 
-🔔 서비스 이름: 
+🔔 서비스 이름: DAWNNECT
 
-🔔 소개 : 
+🔔 소개 : We connect you like dawn.
 
 <br/><br/>
 
