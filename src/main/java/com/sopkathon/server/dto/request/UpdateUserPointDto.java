@@ -1,11 +1,8 @@
 package com.sopkathon.server.dto.request;
+import lombok.Data;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 
-@Getter
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@Data
 public class UpdateUserPointDto {
     Boolean changeStatus;
 }
