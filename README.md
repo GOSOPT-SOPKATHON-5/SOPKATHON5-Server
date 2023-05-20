@@ -81,8 +81,9 @@ ex) feat/#9-user-api
 - `main`에 직접적인 commit, push는 가급적 금지합니다
 - 작업 전, 반드시 `main` 브랜치를 pull 받고 시작합니다
   `git pull origin main`
-- 기능 개발 시 `feature/기능` 브랜치를 파서 관리합니다
-  `git branch feature/기능`
+- 기능 개발 시 issue를 만듭니다.
+- 기능 개발 시 `feature/기능` 브랜치를 파서 관리합니다
+  `git branch feature/#이슈번호-api설명`
 - 작은 기능별로 `commit message rules`에 따라 커밋을 진행합니다
 - 작업 완료 시 `main` 브랜치로 Pull Request를 보냅니다
 - 팀원과 코드리뷰를 진행한 후, 최종적으로 `main` 브랜치로 merge합니다
