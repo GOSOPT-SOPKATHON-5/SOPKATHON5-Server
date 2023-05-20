@@ -12,7 +12,7 @@ public enum SuccessStatus {
     user
      */
     SIGNUP_SUCCESS(HttpStatus.CREATED, "회원가입이 완료되었습니다."),
-
+    GET_RESULT(HttpStatus.OK, "조회 성공하였습니다."),
     /*
     answer
      */

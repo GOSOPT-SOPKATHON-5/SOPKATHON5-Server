@@ -1,5 +1,6 @@
 package com.sopkathon.server.repository;
 
+
 import com.sopkathon.server.domain.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 

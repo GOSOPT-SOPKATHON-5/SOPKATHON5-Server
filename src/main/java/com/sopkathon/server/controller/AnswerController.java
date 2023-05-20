@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 
+
 @RestController
 @RequiredArgsConstructor
 public class AnswerController {
@@ -19,7 +20,7 @@ public class AnswerController {
     @DeleteMapping("/answer")
     public ApiResponseDto deleteAnswer(
             @RequestHeader("user-id") Long userId,
-            DeleteResultRequestDto requestDto
+            @RequestBody DeleteResultRequestDto requestDto
     ) {
         answerService.deleteAnswer(userId, requestDto);
         return ApiResponseDto.success(SuccessStatus.DELETE_RESULT);
