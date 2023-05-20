@@ -27,11 +27,13 @@ public class Result extends AuditingTimeEntity {
     @JoinColumn(name = "answer_id")
     private Answer answer;
 
-    @Builder
-    public Result(Long id, User sender, User receiver, Answer answer) {
-        this.id = id;
+    public Result(User sender, User receiver, Answer answer) {
         this.sender = sender;
         this.receiver = receiver;
         this.answer = answer;
+    }
+
+    public static Result newInstance(User sender, User receiver, Answer answer) {
+        return new Result(sender, receiver, answer);
     }
 }

@@ -2,6 +2,7 @@ package com.sopkathon.server.dto.response;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 
 @Getter
