@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sopkathon5.cxfnzlz2vmbm.ap-northeast-2.rds.amazonaws.com:3306/sopkathon5?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
-    username: gosopt
-    password: gosopt1234
+    url: jdbc:mysql://cds-server.cj14id9uyght.ap-northeast-2.rds.amazonaws.com:3306/cds_server?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
+    username: cds_server
+    password: sopt1234
 
   jpa:
     show-sql: true
