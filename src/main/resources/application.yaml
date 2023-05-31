@@ -1,10 +1,4 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://cds-server.cj14id9uyght.ap-northeast-2.rds.amazonaws.com:3306/cds_server?useSSL=true&useUnicode=true&serverTimezone=Asia/Seoul
-    username: cds_server
-    password: sopt1234
-
   jpa:
     show-sql: true
     hibernate:
@@ -12,6 +6,10 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+  profiles:
+    include: dev
+
 logging:
   level:
     org:
